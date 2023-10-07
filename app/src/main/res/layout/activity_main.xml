@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:minHeight="?actionBarSize"
-        android:theme="?actionBarTheme"
-        android:id="@+id/toolbar">
+        android:theme="?actionBarTheme">
 
         <TextView
             android:layout_width="wrap_content"
@@ -22,16 +22,17 @@
             android:textSize="40dp"/>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/newnotebtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
             android:text="+"
             android:textSize="44dp"
             android:textColor="@color/black"
-            android:layout_gravity="end"
-            android:backgroundTint="@color/white"
-            android:id="@+id/newnotebtn"/>
+            android:backgroundTint="@color/white"/>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/probtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -48,6 +49,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
         />
 
 
