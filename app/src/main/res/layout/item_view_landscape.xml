@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleoutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Note"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:gravity="center"
+            android:padding="10dp" />
+        <TextView
+            android:id="@+id/descriptionoutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleoutput"
+            android:layout_marginTop="1dp"
+            android:lines="10"
+            android:textColor="@color/black"
+            android:text="My description"
+            android:background="@color/lightpink"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/dateoutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:gravity="center|end"
+            android:padding="10dp"
+            android:text="7-10-2023"
+            android:textColor="@color/white"
+            android:textSize="10dp" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="description">
+        Export all notes to a JSON (ocn) file.
+        This JSON file is readable, so keep it
+        save. When you would like to store it in
+        your private cloud storage, you could
+        move or copy it to iCloud or Google
+        Drive for example.
+    </string>
+
+    <string name="description1">
+        Warning: Import will override your
+        current notes. If you want to restore
+        your current notes later: Export first.
+    </string>
+</resources>

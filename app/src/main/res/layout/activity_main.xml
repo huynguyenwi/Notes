@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acitivity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="NOTES"
+            android:textColor="@color/black"
+            android:textSize="30dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/newnotebtn"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/white"
+            android:text="+"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:paddingEnd="10dp"
+            android:paddingTop="0dp"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/probtn"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:background="@drawable/custom_btn"
+            app:backgroundTint="@null"
+            android:text="PRO"
+            android:textSize="15dp"
+            android:padding="0dp"
+            />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/toolbar"
+        android:background="#2C2C2C"
+        />
+
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear"
+        android:layout_marginStart="10dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Acitivity.AddNoteActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbaradd1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        android:background="@color/red"
+        android:theme="?actionBarTheme">
+
+        <EditText
+            android:id="@+id/titleinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/colorpicker"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:background="@drawable/colorpicker_btn"
+            android:scaleType="center"
+            android:layout_marginEnd="30dp"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/descriptioninput"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:background="@color/lightpink"
+        android:padding="10dp"
+        android:gravity="top"
+        />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbaradd2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme">
+
+        <Button
+            android:id="@+id/closebtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/baseline_close_24"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/sharebtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/baseline_share_24"
+            app:backgroundTint="@null"/>
+
+        <Button
+            android:id="@+id/confirmbtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/baseline_check_24"
+            app:backgroundTint="@null"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</LinearLayout>

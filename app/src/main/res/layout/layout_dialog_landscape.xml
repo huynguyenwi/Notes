@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp"
+    android:background="@drawable/background_dialog"
+    android:layout_gravity="center">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+
+    <ImageButton
+        android:id="@+id/imgbtn_red"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/red" />
+    <ImageButton
+        android:id="@+id/imgbtn_orange"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/orange" />
+    <ImageButton
+        android:id="@+id/imgbtn_lightorange"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/darkorange" />
+    <ImageButton
+        android:id="@+id/imgbtn_yellow"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/gold" />
+    <ImageButton
+        android:id="@+id/imgbtn_lightgreen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/yellowgreen" />
+    <ImageButton
+        android:id="@+id/imgbtn_green"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/limegreen" />
+    <ImageButton
+        android:id="@+id/imgbtn_darkgreen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/darkturquoise" />
+    <ImageButton
+        android:id="@+id/imgbtn_blue"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/royalblue" />
+    <ImageButton
+        android:id="@+id/imgbtn_denim"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/mediumblue" />
+    <ImageButton
+        android:id="@+id/imgbtn_purple"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/colorpicker_btn"
+        android:backgroundTint="@color/darkviolet" />
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/checkmark_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="29dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="79dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24_1"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="129dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24_1"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="179dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24_1"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="229dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="279dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="329dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="379dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="429dp"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/checkmark_image10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_check_24"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="479dp"
+            android:visibility="invisible"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
